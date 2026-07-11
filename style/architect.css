@@ -196,6 +196,36 @@ main{
 }
 
 
+/* features section related styles */
+
+#features-section-title{
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+}
+.features{
+  gap: 140px;
+}
+
+.features-card{
+  padding: 30px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+
+
+.features-card .features-title{
+  font-weight: 600;
+  font-size: 1.25rem;
+  margin-top:0px;
+  margin-bottom: 0px;
+  
+}
+
+
+
+
 /* responsive media quary */
 
 @media screen and (max-width:576px){
